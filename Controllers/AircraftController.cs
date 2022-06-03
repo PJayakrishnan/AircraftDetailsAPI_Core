@@ -12,17 +12,21 @@ namespace Aircraft_Details_API_Core.Controllers
     {
         List<AircraftDetails>? aircraftObjList = new List<AircraftDetails>();
         private IWebHostEnvironment Environment;
+        string contentPath;
 
         public AircraftController(IWebHostEnvironment _environment)
         {
             try
             {
                 Environment = _environment;
-                string wwwPath = this.Environment.WebRootPath;
-                string contentPath = this.Environment.ContentRootPath;
+                contentPath = this.Environment.ContentRootPath;
                 var fullPath = Path.Combine(contentPath, "App_Data/AircraftDetails.json");
-                var allText = System.IO.File.ReadAllText(fullPath);
-                aircraftObjList = JsonConvert.DeserializeObject<List<AircraftDetails>>(allText);
+                if (System.IO.File.Exists(fullPath))
+                {
+                    var allText = System.IO.File.ReadAllText(fullPath);
+                    aircraftObjList = JsonConvert.DeserializeObject<List<AircraftDetails>>(allText);
+                }
+                
             }
             catch(Exception e)
             {
