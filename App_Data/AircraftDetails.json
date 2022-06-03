@@ -1,0 +1,106 @@
+[
+    {
+      "Aircraft": "A220-100",
+      "Manufacturer": "Airbus",
+      "AircraftType": "Passenger",
+      "Range": "6390km",
+      "MaxTakeOffWeight": "63100kg",
+      "searchTags": [ "a220", "A220", "a220-100", "A220-100", "a220 100", "A220 100", "airbus Aircrafts" ]
+    },
+    {
+      "Aircraft": "A220-300",
+      "Manufacturer": "Airbus",
+      "AircraftType": "Passenger",
+      "Range": "6297km",
+      "MaxTakeOffWeight": "70900kg",
+      "searchTags": [ "a220", "A220", "a220-300", "A220-300", "a220 300", "A220 300", "airbus Aircrafts" ]
+    },
+    {
+      "Aircraft": "A19neo",
+      "Manufacturer": "Airbus",
+      "AircraftType": "Passenger",
+      "Range": "6760km",
+      "MaxTakeOffWeight": "75500kg",
+      "searchTags": [ "a319", "A319", "a19-neo", "A319-neo", "a319 neo", "A319 neo", "a319neo", "A319neo", "Airbus aircrafts" ]
+    },
+    {
+      "Aircraft": "A320neo",
+      "Manufacturer": "Airbus",
+      "AircraftType": "Passenger",
+      "Range": "6390km",
+      "MaxTakeOffWeight": "79000kg",
+      "searchTags": [ "a320", "A320", "a320-neo", "A320-neo", "a320 neo", "A320 neo", "a320neo", "A320neo", "Airbus aircrafts" ]
+    },
+    {
+      "Aircraft": "A321neo",
+      "Manufacturer": "Airbus",
+      "AircraftType": "Passenger",
+      "Range": "7400km",
+      "MaxTakeOffWeight": "97000kg",
+      "searchTags": [ "a321", "A321", "a321-neo", "A321-neo", "a321 neo", "A321 neo", "a321neo", "A321neo", "Airbus aircrafts" ]
+    },
+    {
+      "Aircraft": "A321XLR",
+      "Manufacturer": "Airbus",
+      "AircraftType": "Passenger",
+      "Range": "8700km",
+      "MaxTakeOffWeight": "101000kg",
+      "searchTags": [ "a321", "A321", "a321-xlr", "A321-xlr", "a321 xlr", "A321 xlr", "a321xlr", "A321xlr", "a321-XLR", "airbus aircraft" ]
+    },
+    {
+      "Aircraft": "A330-200F",
+      "Manufacturer": "Airbus",
+      "AircraftType": "Freighter",
+      "Range": "7600km",
+      "MaxTakeOffWeight": "233000kg",
+      "searchTags": [ "a330", "A330", "a330200f", "A330200f", "a330 200f", "A330 200F", "a330200F", "A330200F", "a330-200F", "airbus aircraft", "airbus freighter", "cargo" ]
+    },
+    {
+      "Aircraft": "A330-800",
+      "Manufacturer": "Airbus",
+      "AircraftType": "Passenger",
+      "Range": "15094km",
+      "MaxTakeOffWeight": "251000kg",
+      "searchTags": [ "a330", "A330", "a330-800", "A330-800", "a330 800", "A330 800", "a330800", "A330800", "airbus aircraft" ]
+    },
+    {
+      "Aircraft": "A330-900",
+      "Manufacturer": "Airbus",
+      "AircraftType": "Passenger",
+      "Range": "13334km",
+      "MaxTakeOffWeight": "251000kg",
+      "searchTags": [ "a330", "A330", "a330-900", "A330-900", "a330 800", "A330 900", "a330900", "A330900", "airbus aircraft" ]
+    },
+    {
+      "Aircraft": "A350F",
+      "Manufacturer": "Airbus",
+      "AircraftType": "Freighter",
+      "Range": "8700km",
+      "MaxTakeOffWeight": "319000kg",
+      "searchTags": [ "a350", "A350", "a350-F", "A350-F", "a350 F", "A350 F", "a350F", "A350f", "airbus aircraft", "Airbus Freighter", "Cargo" ]
+    },
+    {
+      "Aircraft": "A350-900",
+      "Manufacturer": "Airbus",
+      "AircraftType": "Passenger",
+      "Range": "15000km",
+      "MaxTakeOffWeight": "280000kg",
+      "searchTags": [ "a350", "A350", "a350-900", "A350-900", "a350 900", "A350 900", "a350900", "A350900", "airbus aircraft" ]
+    },
+    {
+      "Aircraft": "A350-1000",
+      "Manufacturer": "Airbus",
+      "AircraftType": "Passenger",
+      "Range": "16112km",
+      "MaxTakeOffWeight": "319000kg",
+      "searchTags": [ "a350", "A350", "a350-1000", "A350-1000", "a350 1000", "A350 1000", "a3501000", "A3501000", "airbus aircraft" ]
+    },
+    {
+      "Aircraft": "A380",
+      "Manufacturer": "Airbus",
+      "AircraftType": "Passenger",
+      "Range": "14800km",
+      "MaxTakeOffWeight": "575000kg",
+      "searchTags": [ "a380", "A380", "airbus aircraft", "Double decker", "Biggest passenger jet" ]
+    }
+]

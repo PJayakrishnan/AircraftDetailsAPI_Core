@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aircraft_Details_API_Core", "Aircraft_Details_API_Core.csproj", "{16DE491D-97BC-4C91-92BA-B54B3DF5A3C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16DE491D-97BC-4C91-92BA-B54B3DF5A3C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16DE491D-97BC-4C91-92BA-B54B3DF5A3C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16DE491D-97BC-4C91-92BA-B54B3DF5A3C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16DE491D-97BC-4C91-92BA-B54B3DF5A3C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1229423-23F4-4322-B32D-CE6E5FAA734F}
+	EndGlobalSection
+EndGlobal
