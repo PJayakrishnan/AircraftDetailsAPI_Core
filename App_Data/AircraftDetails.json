@@ -109,6 +109,6 @@
     "AircraftType": "Passenger",
     "Range": "6037km",
     "MaxTakeOffWeight": "70080kg",
-    "searchTags": [ "b737", "B737", "boeing aircraft", "b737 700", "B737 700", "b737-700", "B737-700", "b737700", "B737700", "Boeing aircraft" ]
+    "searchTags": [ "b737", "B737", "boeing aircraft", "b737 700", "B737 700", "b737-700", "B737-700", "b737700", "B737700", "Boeing aircraft", "boeing", "Boeing" ]
   }
 ]
