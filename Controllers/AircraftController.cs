@@ -50,18 +50,29 @@ namespace Aircraft_Details_API_Core.Controllers
         {
             List<AircraftDetails> SearchRsltList = new List<AircraftDetails>();
 
-            for (int i = 0; i < aircraftObjList.Count; i++)
+            if(aircraftObjList != null)
             {
-                for (int j = 0; j < aircraftObjList[i].searchTags.Count; j++)
+                for (int i = 0; i < aircraftObjList.Count; i++)
                 {
-                    if (aircraftObjList[i].Aircraft == searchWord || aircraftObjList[i].searchTags[j] == searchWord || aircraftObjList[i].Manufacturer == searchWord)
+                    if (aircraftObjList[i].Aircraft == searchWord || aircraftObjList[i].Manufacturer == searchWord)
                     {
                         SearchRsltList.Add(aircraftObjList[i]);
-                        goto jumpSpot;
                     }
+                    else if(aircraftObjList[i].searchTags != null)
+                    {
+                        for (int j = 0; j < aircraftObjList[i].searchTags.Count; j++)
+                        {
+                            if (aircraftObjList[i].searchTags[j] == searchWord)
+                            {
+                                SearchRsltList.Add(aircraftObjList[i]);
+                                goto jumpSpot;
+                            }
+                        }
+                    }
+                    
+                jumpSpot:
+                    bool True = true;
                 }
-            jumpSpot:
-                bool True = true;
             }
 
             return SearchRsltList;
