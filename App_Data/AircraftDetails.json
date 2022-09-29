@@ -110,5 +110,13 @@
     "Range": "6037km",
     "MaxTakeOffWeight": "70080kg",
     "searchTags": [ "b737", "B737", "boeing aircraft", "b737 700", "B737 700", "b737-700", "B737-700", "b737700", "B737700", "Boeing aircraft", "boeing", "Boeing", "Boeing aircrafts" ]
+  },
+  {
+    "Aircraft": "B737-800",
+    "Manufacturer": "Boeing",
+    "AircraftType": "Passenger",
+    "Range": "7408km",
+    "MaxTakeOffWeight": "79002Kg",
+    "searchTags": [ "b737", "B737", "boeing aircraft", "b737 800", "B737 800", "b737-800", "B737-800", "b737800", "B737800", "Boeing aircraft", "boeing", "Boeing", "Boeing aircrafts" ]
   }
 ]
