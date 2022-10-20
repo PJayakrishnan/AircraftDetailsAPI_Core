@@ -4,7 +4,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:60599",
+      "applicationUrl": "https://aircraft-api.herokuapp.com/",
       "sslPort": 44391
     }
   },
