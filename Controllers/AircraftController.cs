@@ -37,45 +37,63 @@ namespace Aircraft_Details_API_Core.Controllers
 
 
         [HttpGet]
-        public List<AircraftDetails> Get()
+        public IActionResult Get()
         {
-            return aircraftObjList;
+            try
+            {
+                return Ok(aircraftObjList);
+            }
+            catch (Exception ex)
+            {
+
+                return NotFound();
+            }
+
         }
 
 
         
         [HttpGet]
         [Route("{searchWord}")]
-        public List<AircraftDetails> Get(string searchWord)
+        public IActionResult Get(string searchWord)
         {
-            List<AircraftDetails> SearchRsltList = new List<AircraftDetails>();
-
-            if(aircraftObjList != null)
+            try
             {
-                for (int i = 0; i < aircraftObjList.Count; i++)
+                List<AircraftDetails> SearchRsltList = new List<AircraftDetails>();
+
+                if (aircraftObjList != null)
                 {
-                    if (aircraftObjList[i].Aircraft == searchWord || aircraftObjList[i].Manufacturer == searchWord)
+                    for (int i = 0; i < aircraftObjList.Count; i++)
                     {
-                        SearchRsltList.Add(aircraftObjList[i]);
-                    }
-                    else if(aircraftObjList[i].searchTags != null)
-                    {
-                        for (int j = 0; j < aircraftObjList[i].searchTags.Count; j++)
+                        if (aircraftObjList[i].Aircraft == searchWord.ToLower() || aircraftObjList[i].Manufacturer == searchWord.ToLower())
                         {
-                            if (aircraftObjList[i].searchTags[j] == searchWord)
+                            SearchRsltList.Add(aircraftObjList[i]);
+                        }
+                        else if (aircraftObjList[i].searchTags != null)
+                        {
+                            for (int j = 0; j < aircraftObjList[i].searchTags.Count; j++)
                             {
-                                SearchRsltList.Add(aircraftObjList[i]);
-                                goto jumpSpot;
+                                if (aircraftObjList[i].searchTags[j] == searchWord.ToLower())
+                                {
+                                    SearchRsltList.Add(aircraftObjList[i]);
+                                    goto jumpSpot;
+                                }
                             }
                         }
-                    }
-                    
-                jumpSpot:
-                    bool True = true;
-                }
-            }
 
-            return SearchRsltList;
+                    jumpSpot:
+                        bool True = true;
+                    }
+                }
+
+                return Ok(SearchRsltList);
+            }
+            catch (Exception ex)
+            {
+
+                return NotFound();
+            }
+            
         }
 
     }
