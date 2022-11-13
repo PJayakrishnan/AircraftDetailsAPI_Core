@@ -35,9 +35,12 @@ namespace Aircraft_Details_API_Core.Controllers
             
         }
 
-
-        [HttpGet]
-        public IActionResult Get()
+        /// <summary>
+        /// Call GetAllAircrafts to get details of all the aircrafts.
+        /// </summary>
+        /// <returns>Returns a list of all the aircrafts.</returns>
+        [HttpGet("GetAllAircrafts")]
+        public IActionResult GetAllAircrafts()
         {
             try
             {
@@ -52,10 +55,13 @@ namespace Aircraft_Details_API_Core.Controllers
         }
 
 
-        
-        [HttpGet]
-        [Route("{searchWord}")]
-        public IActionResult Get(string searchWord)
+        /// <summary>
+        /// Call SearchAircrafts with parameter to get deatils of aircraft you searched for.
+        /// </summary>
+        /// <param name="searchWord"></param>
+        /// <returns>Returns a list of aircrafts your search word matches.</returns>
+        [HttpGet("SearchAircrafts")]
+        public IActionResult SearchAircrafts(string searchWord)
         {
             try
             {
