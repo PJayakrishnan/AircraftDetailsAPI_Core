@@ -1,7 +1,7 @@
 # AircraftDetailsAPI_Core
-## A web API made using ASP.NET Core including search feature.
+## A web API made using ASP.NET Core with search feature.
 
-If you want details about an aircraft, you can search with it's manufacturer, it's name, it's model etc.
+If you want details of an aircraft, you can search with it's manufacturer, name, model etc.
 You will get it's data in JSON 
 
 
@@ -31,12 +31,17 @@ You will get it's data in JSON
 
 ````
  
+ ## API end points
 
-| Main URL  | [https://aircraft-api.herokuapp.com](https://aircraft-api.herokuapp.com) |
-|-----------|--------------------------------------------------------------------------|
+| Main URL  | https://aircraft-api.herokuapp.com |
+|-----------|------------------------------------|
 
 
-| /api/aircraft               | To get the details of all the aircrafts.                |
-|-----------------------------|---------------------------------------------------------|
-| /api/aircraft/{searchWord}  | To get details of aircraft(s) matching your search word.|
+|  /api/aircraft/GetAllAircrafts                   | To get the details of all the aircrafts.                |
+|:-------------------------------------------------|:--------------------------------------------------------|
+|  /api/aircraft/SearchAircrafts?searchWord=boeing | To get details of aircraft(s) matching your search word.|
+
+## Documentation
+
+[Click Here to see documentation of Aircraft details API](https://aircraft-api.herokuapp.com/swagger/index.html)
                                               
